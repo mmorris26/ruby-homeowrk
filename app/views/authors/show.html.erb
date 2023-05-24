@@ -1,0 +1,6 @@
+<h1>Author Page</h1>
+
+<h1> <%= "#{@author.first_name}  #{@author.last_name}" %> </h1>
+<h1><%= @author.number_of_books%></h1>
+<h1><%= @author.author_birthdate %></h1>
+<h3> <%= link_to "Back to List of Authors?", authors_path%>
